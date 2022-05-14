@@ -1,6 +1,5 @@
 import { css } from "@emotion/react";
-import { listenerCount } from "process";
-import { colors, overlayOrder } from "../../../../styles/themes";
+import { overlayOrder } from "../../../../styles/themes";
 import { MENU_LIST } from "../../../constant";
 import { LinkText } from "../LinkText";
 
