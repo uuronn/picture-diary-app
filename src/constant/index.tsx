@@ -1,6 +1,6 @@
 export const MENU_LIST = [
   {
-    title: "ほーむ",
+    title: "ホーム",
     url: ""
   },
   {
