@@ -5,14 +5,6 @@ export interface ContainerProps extends ComponentPropsWithRef<"div"> {
   forwardRef?: ForwardedRef<HTMLDivElement>;
 }
 
-// このコードはサンプルです
-// max-widthとpaddingは適宜変えてください
-const container = css`
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 0 16px;
-`;
-
 export const Container = ({
   forwardRef,
   children,
@@ -24,3 +16,11 @@ export const Container = ({
     </div>
   );
 };
+
+// このコードはサンプルです
+// max-widthとpaddingは適宜変えてください
+const container = css`
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px;
+`;
