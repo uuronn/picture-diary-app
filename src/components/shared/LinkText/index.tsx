@@ -6,13 +6,11 @@ interface LinkTextProps extends ComponentPropsWithRef<"a"> {
   url: string;
 }
 
-export const LinkText = ({ children, url }: LinkTextProps): JSX.Element => {
-  return (
-    <Link href={url}>
-      <a css={link}>{children}</a>
-    </Link>
-  );
-};
+export const LinkText = ({ children, url }: LinkTextProps): JSX.Element => (
+  <Link href={url}>
+    <a css={link}>{children}</a>
+  </Link>
+);
 
 const link = css`
   font-size: 2rem;
